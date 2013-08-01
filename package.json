@@ -1,0 +1,12 @@
+{
+  "name": "Will-Smith-Ipsum",
+  "description": "Random Will Smith lyrics generator",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "jade": "*",
+    "stylus": "*",
+    "mongodb": ">= 0.9.6-7"
+  }
+}
