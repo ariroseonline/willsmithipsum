@@ -25,8 +25,12 @@
                 margin-bottom: 20px;
             }
 
-            img {
-                margin-bottom:20px;
+        
+            .tag-line
+            {
+                font-style:italic;
+                                margin-bottom:20px;
+
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -47,17 +51,23 @@
 
               <div class="row-fluid text-center">
  
-             <img width="200px" src="img/willsmith.jpg" alt="Big Will">
+             <img width="200px" src="img/willsmith-before.jpg" alt="Big Will">
 </div>
+
+
+              <div class="row-fluid text-center tag-line">
+                "Now Curse-Free!"
+ 
+            </div>
 
             <div class="row-fluid text-center">
             
             <div class="btn-group " >
-              <button type="button" class="btn btn-default">5 lines</button>
+              <button data-line-count="5" type="button" class="btn btn-default">5 lines</button>
 
-              <button type="button" class="btn btn-default">10 lines</button>
-              <button type="button" class="btn btn-default">25 lines</button>
-              <button type="button" class="btn btn-default">50 lines</button>
+              <button data-line-count="10" type="button" class="btn btn-default">10 lines</button>
+              <button data-line-count="25" type="button" class="btn btn-default">25 lines</button>
+              <button data-line-count="50" type="button" class="btn btn-default">50 lines</button>
             </div>
 
 
@@ -72,11 +82,11 @@
      
 
             <hr>
- <div class="row-fluid text-center">
- 
-   <footer>
-                <p>Universum</p>
-            </footer>
+<div class="row-fluid text-center">
+    
+    <footer>
+        <p>Universum</p>
+    </footer>
 </div>
 
          
