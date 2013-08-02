@@ -25,11 +25,13 @@ app.configure(function(){
 
 //Home page
 app.get('/', function(req, res){
-  number = req.query.lines;
-  lyrics.find
+  // number = req.query.lines;
+  // console.log(number);
+  // lyrics.find;
   res.render('index', {
     title: 'Home'
  });
+});
 
 // });app.get('*', home.index);
 
