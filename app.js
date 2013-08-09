@@ -25,13 +25,13 @@ app.configure(function(){
 
 //Home page
 app.get('/', function(req, res){
-  number = req.query.lines;
-  lyrics.find
+  // number = req.query.lines;
+  // lyrics.find
   res.render('index', {
     title: 'Home'
  });
 
-// });app.get('*', home.index);
+}); //app.get('*', home.index);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
